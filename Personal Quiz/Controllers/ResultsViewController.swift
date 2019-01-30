@@ -18,7 +18,6 @@ class ResultsViewController: UIViewController {
     // MARK: - Properties
     
     var answers: [Answer]?
-    var animals = [AnimalType]()
     var counts: [AnimalType: Int] = [:]
     var result: AnimalType?
     
@@ -38,7 +37,6 @@ class ResultsViewController: UIViewController {
     func countOfAnimals() {
         for answer in answers! {
             counts[answer.type] = (counts[answer.type] ?? 0) + 1 // добавляем полученные из ответов типы(в качестве ключей) в словарь и считаем количество одинаковых(прибавляя 1 в значения типов)
-            //animals.append(answer.type)
         }
         print(counts)
     }
