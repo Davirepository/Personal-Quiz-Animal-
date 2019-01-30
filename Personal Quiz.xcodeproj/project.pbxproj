@@ -15,6 +15,7 @@
 		63FD735F21FE1C0B00D71C6E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FD735E21FE1C0B00D71C6E /* ResultsViewController.swift */; };
 		63FD736321FE1E8400D71C6E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FD736221FE1E8400D71C6E /* Question.swift */; };
 		63FD736521FFA25900D71C6E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FD736421FFA25900D71C6E /* WelcomeViewController.swift */; };
+		63FD73852201E03100D71C6E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 63FD73842201E03100D71C6E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		63FD735E21FE1C0B00D71C6E /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		63FD736221FE1E8400D71C6E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		63FD736421FFA25900D71C6E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		63FD73842201E03100D71C6E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		63FD733D21FCA9BD00D71C6E = {
 			isa = PBXGroup;
 			children = (
+				63FD73842201E03100D71C6E /* .gitignore */,
 				63FD734821FCA9BD00D71C6E /* Personal Quiz */,
 				63FD734721FCA9BD00D71C6E /* Products */,
 			);
@@ -155,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FD73852201E03100D71C6E /* .gitignore in Resources */,
 				63FD735421FCA9BD00D71C6E /* LaunchScreen.storyboard in Resources */,
 				63FD735121FCA9BD00D71C6E /* Assets.xcassets in Resources */,
 				63FD734F21FCA9BD00D71C6E /* Main.storyboard in Resources */,
